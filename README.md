@@ -1,19 +1,8 @@
-# to-do-list
+# **Desafio ToDoList**
+Desafio 02, Modulo 04 VueJS
 
-## Project setup
-```
-npm install
-```
+[Ver Sitio](https://steinnx.github.io/Desafio01-MiPrimerVueJS/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## **Capitulos**
+* Vue CLI
+* Directivas
