@@ -13,11 +13,11 @@
     </section>
     <section class="center">
       <h2>Lista</h2>
-      <ol>
+      <ul>
         <li v-for="(task_iteracion, i) in tasks" :key="i">
-          {{ task_iteracion }}
+          {{ getLabelTask(task_iteracion, i) }}
         </li>
-      </ol>
+      </ul>
     </section>
   </div>
 </template>
@@ -32,6 +32,9 @@ export default {
     };
   },
   methods: {
+    getLabelTask(task, index) {
+      return `${index}: ${task}`;
+    },
     addTask() {
       const { task } = this;
       this.tasks.push(task);
@@ -70,5 +73,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+li {
+  text-align: start;
 }
 </style>
